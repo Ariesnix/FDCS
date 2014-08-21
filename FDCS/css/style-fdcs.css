@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+}
+
+#header{
+	height: 125px;
+	background-color: #282828;
+}
+
+#title{
+	padding-top: 20px;
+	padding-left: 80px;
+}
+
+#title span{
+	font-size: 45px;
+	font-family: '微软雅黑';
+	color: #ff8040;
+}
+
+#menu{
+	padding-left: 160px;
+	border-bottom: 1px solid #282828;
+}
+
+#selector{
+	float: left;
+	margin: 10px 0;
+}
+
+#exporter{
+	float: left;
+	margin-top: 9px;
+	margin-left: 40px;
+	display: none;
+}
+
+#tableCntr{
+	padding: 10px 0 20px 120px;
+	width: 400px;
+	text-align: center;
+	overflow: auto;
+}
+
+#table a{
+	text-decoration: none;
+}
+
+#table a:link,a:hover,a:visited{
+	color: red;
+}
+
+#footer{
+	padding: 10px 0;
+	background-color: #282828;
+	text-align: center;
+}
+
+#des{
+	font-family: Times New Roman,'楷体';
+	font-weight: lighter;
+	font-size: 16px;
+	color: #cccccc;
+}
+
+#des a{
+	text-decoration: none;/*添加到文本的修饰*/
+}
+
+#des a:link,a:hover,a:visited{
+	color: #cccccc;
+}
